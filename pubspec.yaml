@@ -1,0 +1,52 @@
+name: hogwarts_hat
+description: A new Flutter project.
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #  STATE MANAGEMENT AND SL
+  flutter_bloc: ^8.0.0
+  equatable: ^2.0.3
+  get_it: ^7.2.0
+  injectable: ^1.5.3
+
+  #  NAVIGATION
+  routemaster: ^1.0.1
+
+  #  NETWORK
+  dio: ^4.0.0
+
+  #  UTILS
+  shared_preferences: ^2.0.13
+  intl: ^0.17.0
+  collection: ^1.16.0
+  dartz: ^0.10.1
+
+  #  IMAGES
+  flutter_svg: ^2.0.2
+
+  # ICONS
+  cupertino_icons: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.2.0
+  injectable_generator: ^1.5.4
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/images/
